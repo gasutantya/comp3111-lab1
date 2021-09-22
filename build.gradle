@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+mainClassName = 'Lab.COMP.Library'	//see notes
+
+/*
+	di folder src/main/java tuh isinya Lab.COMP
+	trus buka library
+
+*/
